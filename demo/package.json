@@ -1,0 +1,10 @@
+{
+  "name": "keeper-demo-todo",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Tiny todo API + UI used to demo the keeper. Zero dependencies on purpose.",
+  "scripts": {
+    "start": "node src/server.mjs"
+  }
+}

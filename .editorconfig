@@ -1,0 +1,9 @@
+# Keeper: protect the knowledge base from editor auto-formatting.
+# root = false on purpose: this stanza MERGES under your repo's own root
+# .editorconfig instead of overriding it (see REPLICATE.md §1.7).
+root = false
+
+[docs/**.md]
+# One fact = one unwrapped line (docs/README.md rule 6). Never hard-wrap.
+max_line_length = off
+trim_trailing_whitespace = false

@@ -1,0 +1,11 @@
+# Keeper: the knowledge base is authored, not formatted.
+# The one-fact-one-line rule (docs/README.md rule 6) depends on formatters
+# never re-wrapping prose — Prettier's proseWrap default ("preserve") is safe
+# today, but this ignore makes the KB immune to config drift.
+docs/
+# Broad on purpose — safest default for a docs-as-authored repo. If you
+# actively Prettier-format other markdown (e.g. a docs site), trim to docs/.
+**/*.md
+
+# Hooks & skills are hand-formatted reference code.
+.claude/
